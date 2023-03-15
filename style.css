@@ -1,8 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+
 h1 {
     font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: white;
+    padding: 20px 0 20px 0;
+    margin:0;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.6em;
+   
 }
 
 body {
     background: linear-gradient( #615dad , #ffc8da 80%);
-  
+}
+
+img {
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+}
+
+section {
+   margin: 70px 25% 100px 25%;
+   text-align: center;
+}
+
+.text {
+    background-color: #283e50;
+}
+
+
+kontejner {
+    display: flex;
+    flex-direction:column;
+
+}
+
+a {
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.6em;
+    border: none;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+}
+
+.pravidla {
+    background-color: #1fcca4;
+    border-bottom: 2px solid #283e50;
+}
+
+.pravidla a:hover {
+    background-color: #1cbb96;
+}
+
+.hrat {
+    background-color: #0197f6;
+}
+
+.hrat a:hover {
+    background-color: #0090e9;
 }
