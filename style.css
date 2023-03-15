@@ -50,9 +50,9 @@ img {
 }
 
 a {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: white;
-    line-height: 1.6em;
+    line-height: 1.5em;
     border: none;
     text-decoration: none;
     padding: 10px 0 10px 0;
