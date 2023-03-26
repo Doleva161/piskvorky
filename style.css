@@ -1,51 +1,51 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 230%;
     color: white;
     padding: 0 0 30px 0;
-    margin:0;
+    margin: 0;
 }
 
-p { 
+p {
     font-size: 1.2rem;
     line-height: 1.5;
     color: white;
-    margin: 0; 
+    margin: 0;
 }
 
 body {
-    background: linear-gradient( #615dad 55% , #ffc8da);
+    background: linear-gradient(#615dad 55%, #ffc8da);
     background-position: fixed;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 img {
     border-radius: 25px 25px 0 0;
     width: 100%;
-    
+
 }
 
 .card {
     margin: 40px 36% 60px 36%;
-   text-align: center;
+    text-align: center;
 }
 
 .text {
     margin: -4px 0 0 0;
     padding: 30px 10% 30px 10%;
     background-color: #283e50;
-  
+
 }
 
 .buttons {
     display: flex;
-    flex-direction:column;
-    
+    flex-direction: column;
+
 }
 
 a {
@@ -73,4 +73,22 @@ a {
 
 .play a:hover {
     background-color: #0090e9;
+}
+
+div {
+    width: 80vmin;
+}
+
+.circle {
+    color: white;
+    text-transform: uppercase;
+}
+
+.circle ::after {
+        {
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        border-radius: 100%;
+    }
 }
