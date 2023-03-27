@@ -20,9 +20,10 @@ p {
 
 body {
     background: linear-gradient(#615dad 55%, #ffc8da);
-    background-position: fixed;
+    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+    min-height: 100vw;
 }
 
 img {
@@ -83,21 +84,16 @@ body.game {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
     max-width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
 }
 
 .circle {
-    color: white;
-    text-transform: uppercase;
-}
-
-.circle::after {
-
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    border: 2px solid white;
-    border-radius: 100%;
+    height: 1.9rem;
+    width: auto;
+    border-radius: 0;
 }
 
 .home {
@@ -161,8 +157,9 @@ button {
     width: 5vw;
     height: 5vw;
     flex-wrap: nowrap;
+    border: 1px solid black;
     border-radius: 0;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .piskvorky {
@@ -186,6 +183,7 @@ button {
     justify-content: space-between;
     align-items: stretch;
     margin-bottom: 0.6rem;
+    width: 50vw;
 }
 
 .buttons_title {
