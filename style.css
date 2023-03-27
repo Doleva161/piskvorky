@@ -32,10 +32,14 @@ img {
 
 }
 
+/*Hlavní obsah*/
+
 .card {
     margin: 40px 30% 60px 30%;
     text-align: center;
 }
+
+/*Povídání o piškvorkách*/
 
 .text {
     margin: -4px 0 0 0;
@@ -43,6 +47,8 @@ img {
     background-color: #283e50;
 
 }
+
+/*Tlačítka "Návod" a "Hrát"*/
 
 .buttons {
     display: flex;
@@ -77,7 +83,7 @@ a {
     background-color: #0090e9;
 }
 
-/*Hra*/
+/*HRA**********************************/
 
 body.game {
     display: flex;
@@ -90,11 +96,33 @@ body.game {
     min-height: 100vh;
 }
 
+/*Hlavička*/
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 0.6rem;
+    width: 50vw;
+}
+
+.buttons_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Obrázek "Hraje:kroužek"*/
+
 .circle {
     height: 1.9rem;
     width: auto;
     border-radius: 0;
 }
+
+/*Ikony "Home" a "Restart"*/
 
 .home {
     display: flex;
@@ -153,6 +181,8 @@ body.game {
     border-radius: 10%;
 }
 
+/*Samotné tělo hry*/
+
 button {
     width: 5vw;
     height: 5vw;
@@ -174,21 +204,5 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-.title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-bottom: 0.6rem;
-    width: 50vw;
-}
-
-.buttons_title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
 }
