@@ -19,7 +19,7 @@ p {
 }
 
 body {
-    background: linear-gradient(#615dad 55%, #ffc8da);
+    background: linear-gradient(#615dad 20%, #ffc8da);
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
